@@ -3,3 +3,6 @@ schedule==1.2.0
 pillow==10.2.0
 requests==2.31.0
 python-dotenv==1.0.0 
+beautifulsoup4==4.12.2
+PyQt5==5.15.10
+auto-py-to-exe==2.42.0 

@@ -129,9 +129,9 @@ def convert_file(input_file, output_file=None):
     print(f"감지된 주 언어: {main_language}")
 
     # 폰트 설정
-    normal_font_size = 20
-    title_font_size = normal_font_size * 2  # 40
-    section_font_size = int(normal_font_size * 1.2)  # 섹션 헤더용 폰트 크기
+    normal_font_size = 14
+    title_font_size = normal_font_size * 2
+    section_font_size = int(normal_font_size * 1.2)
 
     # 언어별 폰트 매핑
     font_paths = {
@@ -161,9 +161,9 @@ def convert_file(input_file, output_file=None):
         section_font = ImageFont.truetype(font_paths['ko']['bold'], section_font_size)
 
     # 라인 별 간격 설정 (픽셀 단위)
-    line_spacing = 8  # 기본 줄 간격 증가
-    title_spacing = 20
-    section_spacing = 40  # 섹션 간격 증가
+    line_spacing = 6
+    title_spacing = 14
+    section_spacing = 28
 
     # A4 사이즈 설정 (72dpi 기준, 210mm x 297mm)
     a4_width = 595  # A4 너비는 고정
