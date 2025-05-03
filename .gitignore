@@ -25,4 +25,8 @@ env/
 
 # 시스템 파일
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# 추가된 파일
+ulti/
+structure.md 
