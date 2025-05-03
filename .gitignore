@@ -13,6 +13,7 @@ dist/
 __pycache__/
 *.py[cod]
 *$py.class
+temp_auto_push.bat
 
 # 가상 환경
 venv/
@@ -20,9 +21,13 @@ env/
 .env/
 
 # IDE 설정
-.vscode/
 .idea/
 
 # 시스템 파일
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# 추가된 파일
+ulti/
+structure.md .gitignore
+temp_interactive_push.bat
